@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    background-color: darkturquoise;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+    
+}
+main{
+   background-color: #0001;
+    margin-right: 600px;
+    display: flex;
+    align-items: start;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    
+    
+
+
+}
+#barra{
+    text-align: center;
+    font-size: 54px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}

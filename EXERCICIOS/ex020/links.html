@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*   SELETORES PERSONALIZADOS
+            # = id 
+            . = class
+            : = pseudo-class
+            :: = pseudo-element        
+            > = clildren
+        
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-align: none;
+        }
+        a:visited:{color: darkred;
+
+        }
+        a:hover{
+            color:black;
+            text-decoration: underline;
+        }
+        a :active{color: yellow
+        }
+        a::after{
+            content:'[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+        .especial{
+            background-color: rgb(191, 82, 82);
+        }
+  </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="https://gustavoguanabara.github.io/"target="_blank">Repositório Github</a></li>
+        <li> <a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Canal do Youtube</a></li>
+        <li> <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-1-aula-0-o-que-vamos-aprender-no-modulo-01/#google_vignette" class="especial">Site CursoemVideos</a></li>
+
+        a:visied:
+    </ul>
+
+    
+</body>
+</html>

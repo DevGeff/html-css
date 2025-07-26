@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color:#6BA862;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: -moz-radial-gradient(rgb 39, 160 93);
+}
+/*id em html = ' # '
+class em html = ' . '*/
+h1#principal{
+    text-align: center;
+    color : #45CA18;
+    background-color: aliceblue;
+    border-radius: 1em;
+}
+
+h1{
+    color:#0D3B06;
+}
+h2{
+    color:#50EC1C;
+}
+.basico{
+    color: #0D3B06;
+    background-color: rgb(71, 139, 61);
+}
